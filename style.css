@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+    margin-right: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+.buynow{
+    padding:10px;
+    border: 1px solid gray;
+    border-radius:25px;
+}
+.buynow:hover{
+    transition:0.5s;
+    color: white;
+    background-color:#EA4C89;
+    border: 1px solid #EA4C89;
+}
+
+
+ul{
+    margin-left: auto;
+}
+
+
+
+
+.box{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    /* text-align:center; */
+    border: 1px solid #8080807a;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.boxOne{
+    height: 400px;
+    padding: 80px;
+}
+.boxOne p{
+    color: gray;
+    font-size:14px;
+}
+
+.boxTwo{
+    padding: 80px;
+    background-color: #80808059;
+    height: 400px;
+}
+
+.google-btn-center{
+    width: 100%;
+    border: 1px solid gray;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+}
+.google-btn-center:hover{
+    transition:0.5s;
+    color: white;
+    background-color:#EA4C89;
+    border: 1px solid #EA4C89;
+}
+.google-btn-center img{
+    width: 6%;
+    margin-right: 5px;
+}
+.google-btn:hover{
+    color: white;
+}
